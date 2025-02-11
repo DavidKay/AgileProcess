@@ -1,0 +1,73 @@
+h1. Problem Statement:​
+{panel:bgColor=#ffdd55}
+Single line problem that the business is having. This helps focus on the problem domain rather than the solution domain.
+{panel}
+h2. Key business objectives
+ * A list of SMART objectives the project will deliver
+
+ * Each story should be able to link back to a key business objective
+
+h2. Proposed solution
+{panel:bgColor=#ffffce}
+Single line with the proposition of a solution deliberately kept short to prevent going into implementation details.
+{panel}
+h2. Table of contents
+ * [#Overview]
+ * [#Resources]
+ * [#Use cases]
+ * [#Specific non-functional requirements]
+ * [#Terms and Glossary]
+
+h2. Overview
+ * A list of supporting documents / presentations / overview diagrams available at project inception
+ * This helps to set the scene for the team to have some background or narrative around the Epic
+
+h2. Resources
+||Resource||Location||
+|Various resources|Created, updated and used throughout the project as a single library of information collated into the Epic to prevent the team having to search through individual tickets.|
+|Project documentation|\\aps01fil03.apsgroup.com\XXX|
+|Project Sharepoint|[https://apsgrp.sharepoint.com/XXX|https://apsgrp.sharepoint.com/]|
+|External Documentation|[https://developer.equifax.co.uk/products/apiproducts/]|
+h2. Use cases
+
+As Jira doesn't allow us for Features, the use cases will be recorded within the Epic for the moment until a better location can be found.
+{panel:title=Use case title|borderStyle=dashed|borderColor=#cccccc|titleBGColor=#ffdd55|bgColor=#ffffce}
+*Actor: 🧑 New Business Customer*
+Description of the use case and why the actor is using the system and what they hope to achieve
+List of related tickets
+CREDIT-XXX
+{panel}
+ 
+{panel:title=Use case for a different situation / actor|borderStyle=dashed|borderColor=#cccccc|titleBGColor=#ffdd55|bgColor=#ffffce}
+*Actor: 🧒 High-risk New Business Customer*
+Description of the use case and why the actor is using the system and what they hope to achieve
+List of related tickets
+CREDIT-XXX
+{panel}
+h2. Specific non-functional requirements
+||Requirement||Reason||Story||
+|Non-functional|Just as important as functional, this gives the team an area to think about and record the non-obvious requirements| |
+|Documentation|A clear understanding of the principles design and development decisions made whilst implementing this change
+will ensure that the future development and maintenance of the product is much easier.| |
+|Feature flagging|To be used as a kill-switch in cases where the functionality of the system does not perform the way we expected it to in 
+Production, and we need to quickly switch back to the previously functionality to ensure business continuity.| |
+|Scalability|To be discussed.| |
+|Performance|To ensure that the customer can complete their credit card application within a reasonable amount of time.
+Circuit breakers to disable AccountScore if performance is adversely effected| |
+|Security|To ensure data, and personally sensitive data, is stored in accordance to our data storage policies, and can only be accessed
+according to those policies.| |
+|Data retention|To ensure data can be safely removed from the system if requested.| |
+|Monitoring|To monitor the health of the application| |
+|Logging|To help diagnose issues we will need to log the request and response data to and from AccountScore, being sure to
+omit any personally sensitive data.| |
+|Reporting on success|It's important for the development team to know how well the product is performing in Production once gone
+live. This is an important part of the feedback loop that promotes healthy iterative product development.| |
+h2. Terms and Glossary
+
+A credit check, and a credit search, are terminology for the same thing.
+|h4. Soft credit check|A soft credit check is an initial look at certain information on your credit report. Companies perform soft searches to decide how successful your application would be without conducting a full examination of your credit history.|
+|h4. Hard credit check|A hard credit check happens when a company makes a complete search of your credit report. Each hard check is recorded on your report, so any company searching it will be able to see that you’ve applied for credit.|
+|h4. BCA|Business Current Account|
+|h4. PCA|Personal Current Account|
+|h4. BCC|Business Credit Card|
+|h4. PCC|Personal Credit Card|

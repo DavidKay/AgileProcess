@@ -1,0 +1,86 @@
+{panel:title=User Story|borderStyle=dashed|borderColor=#cccccc|titleBGColor=#ffdd55|bgColor=#ffffce}
+As a ,
+
+I want ,
+
+So that .
+{panel}
+h2. Questions
+
+Before refinement, the team might have a number of questions they want to ask. This space provides a way of recording those within the ticket.
+
+
+h2. Requirements
+
+As this is a user story, requirements are to be kept ideally without implementation.
+
+Supporting documentation, for example front-end designs, or technical specifics, are included later.
+
+A list of MoSCoW requirements can be direct and to the point:
+ * Requirement 1
+ * Requirement 2
+
+It is sometimes good to add closing remarks to requirements too.
+
+
+h2. Out of scope
+Recording what is out of scope is just as important to prevent scope creep and helps keep the team focused.
+
+h2. Proposed solution
+
+Sometimes including a short summary of a proposed solution can guide the developers towards an implementation.
+
+h2. Acceptance Criteria
+{panel:title=Scenario 1 - The title should always be written in plain English and convey the intent clearly|borderStyle=dashed|borderColor=#cccccc|titleBGColor=#ffbb55|bgColor=#ffffce}
+*Given* 
+*When* 
+*Then* 
+{panel}
+h2. Additional notes for testing
+Include any information what will help out testers, such as how to test, useful SQL scripts used in development, 
+screenshots of changed process - anything that you think can help.
+
+h2. Additional resources
+Any further resources to be included - such as designs, copy text, technical thoughts or resources specific to the story rather than the Epic.
+
+h3. Initial page mock-up and wording: 
+{quote}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet elit elementum, consectetur nunc a, lobortis lectus. Quisque ut diam lobortis, dapibus turpis in, bibendum metus. Nulla purus massa, viverra non risus id, ornare aliquam turpis. Sed a leo vehicula, ornare orci sed, fringilla enim. Morbi a velit eu velit luctus viverra.
+{quote}
+h3. Technical resources:
+
+Taken from: 
+[https://www.accountscore.com/api] - Data Collection
+{code:html}
+<html>
+    <title>:: AccountScore :: Submit via form POST</title>
+
+    <body>
+        <form id="ourForm" action="{{environment}}" method="POST" target="_blank">
+            <input name="client" value="{{clientName}}"/>
+            <input name="externalRef" value="abcde-fghij-klmno-pqrst" />
+            <input name="startBank" value="HSBC">
+            <button type="submit">Connect to your bank</button>
+        </form>
+    </body>
+</html>
+{code}
+
+h3. Risks
+| Risk
+&nbsp; | Value | Reason |
+| Compliance Risk
+_Failure to comply with laws, legislation and/or regulations_ | 0 | -- |
+| Operational Risk
+_The risk of anything that stops a firm from operating as usual_  | 0 | -- |
+|Financial Risk
+_Financial loss by doing the wrong thing, including credit, currency, and/or investment risk_ | 0 | -- |
+|Reputational Risk
+_The risk that people won’t have a positive opinion of your firm_ | 0 | -- |
+|Strategic Risk
+_The risk that a strategic decision does not realise the expected benefits_ | 0 | -- |
+|Security Risk
+_The risk that a deliverable is vulnerable to explotation and resistant to attack_ | 0 | -- |
+|Increased Workload Risk
+_The risk that something happens to stop people from doing what is expected of them_ | 0 | -- |
+|&nbsp;
+Total and summary | 0 | -- |
