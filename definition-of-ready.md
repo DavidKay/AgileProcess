@@ -3,8 +3,7 @@
 It is important that a workstream has clarity on the items required for the Sprint, so both the Business's and Workstream's expectations are met. The Definition of Ready includes: -
 
 ## User stories
-A clearly defined userstory e.g. as an Online Banking customer, Back Office user and so on
- following the standard format
+A clearly defined user story following the standard format
  
 - As a "Type of User" I want "some goal" for "some reason"
 
@@ -23,6 +22,16 @@ A clearly defined userstory e.g. as an Online Banking customer, Back Office user
   - Testable, ensures the requirements are understood with Acceptance criteria
 
 - Please see [Agile Alliance - Invest](https://www.agilealliance.org/glossary/invest/) & linked articles for more guidance
+
+> [!NOTE]
+> This is just a guide and a user story's format is not set in stone. If taken too literally, the following might occur:
+>
+> As a business
+> I want the data loaded into the database
+> So that I can see the data in the database
+> 
+> Yes that is a real life example..!
+
 
 ## Technical tasks
 These can be raised as subtasks to user stories. The key difference is that the user story deals with the business impact on the actors and behavioural aspects, whereas the technical tasks deal more specifically with technical implementation and testing detail of the ticket. This enables the development team to segregate the principles and not try to force business language into technical acceptance. A GET request returning a 418 response for example.
