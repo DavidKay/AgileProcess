@@ -32,7 +32,7 @@ A clearly defined user story following the standard format
 > So that I can see the data in the database  
 > 
 > 
-> Yes that is a real life example..!
+> Yes that is a real life user story from a fintech in 2017. Try not to do that!
 
 
 ## Technical tasks
