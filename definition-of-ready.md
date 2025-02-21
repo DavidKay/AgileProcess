@@ -25,10 +25,12 @@ A clearly defined user story following the standard format
 
 > [!NOTE]
 > This is just a guide and a user story's format is not set in stone. If taken too literally, the following might occur:
->
-> As a business
-> I want the data loaded into the database
-> So that I can see the data in the database
+> 
+> 
+> As a business  
+> I want the data loaded into the database  
+> So that I can see the data in the database  
+> 
 > 
 > Yes that is a real life example..!
 
